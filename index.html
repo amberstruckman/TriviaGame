@@ -12,6 +12,8 @@
 <body class="container">
         <h1 class="row">Amber's UN Trivia</h1>
         <div class="row">
+
+            <p>Within 1 minute select an answer for each question. Blank answers will be counted as wrong. You'll have a warning at 30 seconds. Press submit for immediate scoring.</p>
                 
             <form id="quiz" class="col-xs-4 col-sm-8">
                 
@@ -19,10 +21,12 @@
             
             <div class="col-xs-8 col-sm-4">
                 <p id="end-message"></p>
-                <p>Wins:<span id="wins"></span></p>
-                <p>Losses: <span id="losses"></span></p>    
+                <p>Correct Answers:<span id="answersRight"></span></p>
+                <p>Wrong Answers: <span id="answersWrong"></span></p>    
             </div>
         </div>
+
+        <button id="submit">Submit</button>
         <script src="assets/javascript/app.js"></script>
 </body>
 </html>
